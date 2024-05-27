@@ -21,12 +21,21 @@ The results are stored in a database. Make sure that your credentials
 are stored in `credentials.json`. Afterwards, you can run the code as
 follows:
 ```bash
-python train_onlinetd.py --name "experiment_name_for_database"
+python train_onlinetd.py --name "experiment_name_for_database" --sensor "PIT300"
 --training_files "0-4" --val_files "5" --testing_files "6-7"
 ```
 The file ranges in the arguments above refer to the file index in the
 `data-logs` folder.
 
+### Sensor tags
+Refer to the following table for the tags of sensors used in the paper:
+| Tag    | Description            |
+|--------|------------------------|
+| PIT300 | Membrane Pressure      |
+| TIT101 | Influent Temperature   |
+| PIT101 | Inlet Pressure         |
+| FIT101 | Inlet Flow Transmitter |
+| PIT520 | Drain Reject Pressure  |
 
 ## Citation
 If you found our work helpful in your research, consider citing the following:
