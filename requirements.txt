@@ -1,0 +1,13 @@
+attrs==20.3.0
+keras==2.11.0
+numpy==1.21.0
+pandas==1.5.0
+scikit-learn==1.0.1
+scipy==1.7.1
+seaborn==0.12.2
+torch==1.13.1
+tensorflow==2.11.0
+tqdm==4.64.1
+h5py==3.7.0
+mysql-connector==2.2.9
+mariadb==1.0.6
