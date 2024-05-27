@@ -39,11 +39,11 @@ The file ranges in the arguments above refer to the file index in the
 Refer to the following table for the tags of sensors used in the paper:
 | Tag    | Description            |
 |--------|------------------------|
-| PIT300 | Membrane Pressure      |
-| TIT101 | Influent Temperature   |
-| PIT101 | Inlet Pressure         |
-| FIT101 | Inlet Flow Transmitter |
-| PIT520 | Drain Reject Pressure  |
+| ZW_PIT300.DATA | Membrane Pressure      |
+| ZW_TIT101.DATA | Influent Temperature   |
+| ZW_PIT101.DATA | Inlet Pressure         |
+| ZW_FIT101.DATA | Inlet Flow Transmitter |
+| ZW_PIT520.DATA | Drain Reject Pressure  |
 
 ## Citation
 If you found our work helpful in your research, consider citing the following:
