@@ -8,7 +8,15 @@ Official Pytorch code for [GVFs in the real world: making predictions online for
 ```bash
 pip install -r requirements.txt
 ```
-- Download the datasets from [here](https://drive.google.com/file/d/1h0C8bfmbpgoHns24KZn3_AFAP7Ihl0PM/view?usp=share_link) and unzip the log files into
+
+## Dataset
+Dataset used for experiments contains only the months of November 2022 and May 2023. You can get these [here](https://drive.google.com/file/d/1h0C8bfmbpgoHns24KZn3_AFAP7Ihl0PM/view?usp=share_link). We have additionally released the data for an entire year [here](https://drive.google.com/file/d/1eIOktHZARAhNlwdOrGqYZJGDLrtcrtsz/view?usp=sharing).
+
+![overview](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10994-023-06413-x/MediaObjects/10994_2023_6413_Fig5_HTML.png?as=webp)
+
+### Preprocessing the data
+In this codebase, all the preprocessing and state-construction is done only once. Follow the steps below:
+- Unzip the log files into
 `data-prep/data-logs`.
 - Generate mode durations using
   `notebooks/generate_true_modes_json.ipynb`
