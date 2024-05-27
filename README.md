@@ -8,7 +8,7 @@ Official Pytorch code for [GVFs in the real world: making predictions online for
 ```bash
 pip install -r requirements.txt
 ```
-- Download the datasets from [here](#) and unzip the log files into
+- Download the datasets from [here](https://drive.google.com/file/d/1h0C8bfmbpgoHns24KZn3_AFAP7Ihl0PM/view?usp=share_link) and unzip the log files into
 `data-prep/data-logs`.
 - Generate mode durations using
   `notebooks/generate_true_modes_json.ipynb`
