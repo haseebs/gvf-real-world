@@ -2,9 +2,6 @@
 
 **Paper:** [GVFs in the real world: making predictions online for water treatment](https://link.springer.com/article/10.1007/s10994-023-06413-x).
 
-**Data exploration collab:** Coming soon :)
-
-
 ## Setup
 
 - Resolve dependencies by executing the following command:
